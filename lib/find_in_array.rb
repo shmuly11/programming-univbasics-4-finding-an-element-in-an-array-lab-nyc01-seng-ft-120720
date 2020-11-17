@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   while count < array.length 
  # binding.pry
   if array[count] == value_to_find
-    return array.index 
+    return array.index(value_to_find)
   
   end
   count += 1
